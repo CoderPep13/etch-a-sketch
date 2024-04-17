@@ -1,0 +1,26 @@
+body { 
+    background-color: lightgray;
+}
+
+h1 {
+    color: maroon;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    border: 0.25px solid maroon;
+}
+
+.row, .column {
+    background-color: white;
+    border: 1px solid maroon;
+    display: flex;
+    flex: 1;
+}
+
+.button, .button2 {
+    color: maroon;
+}
